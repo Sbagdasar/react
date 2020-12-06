@@ -1,0 +1,7 @@
+mixin list(url,text,active)
+    if active==true && active!=undefined
+        li.active
+            a(href=url)=text
+    else
+        li
+            a(href=url)=text
